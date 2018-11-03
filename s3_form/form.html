@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>les formulaires</title>
+<style>
+    label{
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    
+    <form action="form.html">
+        <!-- table>tr*3>((th>label)+(td>input)) -->
+
+<table align="center"  >
+    <tr>
+        <th><label for="email">Email (*) :</label></th>
+        <td><input type="email"  required id="email" name="email" placeholder="Votre Email"></td>
+    </tr>
+    <tr>
+        <th><label for="passe">Mot de passe : </label></th>
+        <td><input type="password" pattern="^[a-z]{1,2}[0-9]{6}$" id="passe" name="passe"  placeholder="Mot de passe"></td>
+    </tr>
+     <tr>
+       
+        <td colspan="2" align="center"    >
+            <label for="homme" >Homme</label>
+            <input type="radio"   id="homme" value="homme" name="hf">
+            <label for="femme">Femme</label>
+            <input type="radio"  id="femme" name="hf" value="femme">
+            
+
+        </td>
+    </tr>
+    <tr>
+        <th><label for=""></label></th>
+        <td>
+           <button>Envoyer</button>
+        
+        </td>
+    </tr>
+</table>
+    </form>
+
+
+
+</body>
+</html>
