@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0;scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>les formulaires</title>
 <style>
-    label{
+     label{
         cursor: pointer;
     }
 </style>
@@ -36,6 +37,26 @@
 
         </td>
     </tr>
+ <tr>
+     <td><label for="couleur">Couleurs :</label></td>
+     <td><label for="rouge">Rouge</label> 
+        <input id="rouge" type="checkbox">
+        
+        <label for="tvert">VERT</label> 
+        <input type="checkbox" id="tvert">
+        
+        
+       <label for="b">Bleu</label> 
+        
+        <input type="checkbox" id="b">
+    </td>
+ </tr>
+ <tr>
+     <td><label for="dn">Date de naissance :</label></td>
+     <td>
+         <input type="date" name="dn" id="dn">
+     </td>
+ </tr>
     <tr>
         <th><label for=""></label></th>
         <td>
@@ -43,6 +64,7 @@
         
         </td>
     </tr>
+    
 </table>
     </form>
 
