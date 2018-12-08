@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    float: left;
+}
+.b{
+    border: 1px solid black;
+    box-sizing: border-box;/*garder meme taille meme si on des bordures ou padding*/
+}
+#logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background: purple
+}
+
+#menu{
+    height:100px;
+    width: 800px;
+    background: red;
+    float: right;
+}
+footer{
+    background: rgb(238, 238, 153);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+#slider {
+width:100%;
+min-height: 500px;
+background: pink;
+margin: auto;
+
+}
+#slider img{
+width: 100%;
+}
+#motdirecteur {
+    width: 1200px;
+    max-width: 100%;
+    min-height: 500px;
+    background: rgb(245, 27, 64);
+    margin: auto;
+    
+    }
+    
+.separer{
+clear: both;
+height: 20px;
+}
+
+#imgdirecteur{
+    background: grey;
+    float: left;
+width: 50%;
+height: 400px;}
+
+
+#textdirecteur{
+    background: rgb(92, 60, 60);
+    float: right;
+width: 50%;
+height: 400px;}
+
+
+#filieres{
+    width: 1200px;
+    max-width: 100%;
+    min-height: 500px;
+    background: rgb(69, 214, 134);
+    margin: auto;
+}
+
+.filiere{
+    width: 50%%;
+    height: 400px;
+    background: deepskyblue;
+    float: left;
+}
