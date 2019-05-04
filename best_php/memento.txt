@@ -1,0 +1,15 @@
+GET (lien)
+
+index => listes d'une ressource`
+show => consulter une ressource (id)
+
+create => affiche   form (nouveau)
+edit => affiche un form pre saisi (id )
+
+delete => suppression
+
+POST(FORM)
+store => recupere les donnees et les persiste ds la bd (depuis create)
+update => modif (depuis edit)
+
+
